@@ -7,6 +7,8 @@ License: https://www.wowthemes.net/freebies-license/
 
 body {
 	padding-top:5rem;
+    background:rgb(45, 44, 44);
+    color: white !important;
 }
 .mainheading {
 	padding:1rem 0rem;
@@ -18,8 +20,8 @@ a,a:hover {
 	transition:all 0.2s;
 }
 .mediumnavigation {
-	background:rgba(255,255,255,.97);
-	box-shadow:0 2px 2px -2px rgba(0,0,0,.15);
+	background:rgb(45, 44, 44);
+	box-shadow:0 2px 2px -2px rgba(255, 255, 255, 0.645);
 }
 section {
 	margin-bottom:20px;
