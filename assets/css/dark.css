@@ -6,10 +6,25 @@ License: https://www.wowthemes.net/freebies-license/
 */
 
 body {
+	transition: color 1s ease-in-out;
 	padding-top:5rem;
     background:rgb(45, 44, 44);
     color: white !important;
 }
+
+a, h4, .post-date, .post-read{
+	color: white !important;
+}
+.row{
+	background:rgb(45, 44, 44);
+
+}
+
+.card:hover{
+	cursor: pointer;
+	box-shadow: 0 0 0 2px #02B875;
+}
+
 .mainheading {
 	padding:1rem 0rem;
 }
@@ -20,6 +35,7 @@ a,a:hover {
 	transition:all 0.2s;
 }
 .mediumnavigation {
+	transition: color 1s ease-in-out;
 	background:rgb(45, 44, 44);
 	box-shadow:0 2px 2px -2px rgba(255, 255, 255, 0.645);
 }
