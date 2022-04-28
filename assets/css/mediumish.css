@@ -81,6 +81,13 @@ section {
 .listfeaturedtag .card-block {
 	padding-left:0;
 }
+.card:hover{
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.02, 1.02);
+	cursor: pointer;
+	box-shadow: 0 0 0 2px #e7e6e62a;
+}
+
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
 	font-size:1.7rem;
 	font-weight:700;

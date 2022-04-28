@@ -52,11 +52,11 @@ function getCookie(cname) {
             
             document.cookie = "mode=Light";
         }else{
-            alert("Cookie pas vide mais ni Dark ni Light");
+            // alert("Cookie pas vide mais ni Dark ni Light");
         }
 
   }else{
-      alert("Cookie Vide");
+      // alert("Cookie Vide");
   }
 
 

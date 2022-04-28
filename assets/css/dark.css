@@ -46,7 +46,7 @@ a, h4, .post-date, .post-read, .article-post, blockquote, .author-description, .
 	transition: all 0.5s ease-in-out;
 	transform: scale(1.02, 1.02);
 	cursor: pointer;
-	box-shadow: 0 0 0 2px #02B875;
+	box-shadow: 0 0 0 2px #e7e6e62a;
 }
 
 .mainheading {
