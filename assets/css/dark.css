@@ -4,6 +4,8 @@ Copyright:WowThemes.net,https://www.wowthemes.net
 Version:1.0.1
 License: https://www.wowthemes.net/freebies-license/
 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&display=swap');
 
 body {
 	transition: color 1s ease-in-out;
@@ -12,15 +14,37 @@ body {
     color: white !important;
 }
 
-a, h4, .post-date, .post-read{
+p::selection{
+	background-color: yellow;
+	color: rgb(45, 44, 44);
+}
+
+a, h4, .post-date, .post-read, .article-post, blockquote, .author-description, .share{
 	color: white !important;
 }
-.row{
+.row, .card{
 	background:rgb(45, 44, 44);
 
 }
+.bar{
+	border: 0.1px solid #ccc; opacity: 0.5;
+}
+
+.block-card{
+	border: 0.1px solid rgba(204, 204, 204, 0.391);
+}
+
+.block-card:hover{
+	background-color: rgba(102, 102, 119, 0.116);
+}
+
+#autre-article{
+	background-color: rgb(45, 44, 44);
+}
 
 .card:hover{
+	transition: all 0.5s ease-in-out;
+	transform: scale(1.02, 1.02);
 	cursor: pointer;
 	box-shadow: 0 0 0 2px #02B875;
 }
@@ -94,9 +118,10 @@ section {
 	padding-left:0;
 }
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
-	font-size:1.3rem;
+	font-size:1.7rem;
 	font-weight:700;
 	line-height: 1.25;
+	font-family: "Patrick Hand","Abril Fatface";
 }
 .listfeaturedtag h2.card-title a,.listrecent h2.card-title a {
 	color:rgba(0,0,0,.8);
@@ -164,7 +189,7 @@ span.post-date,span.post-read {
 span.post-read-more {
 	align-items:center;
 	display:inline-block;
-	float:right;
+	float: leftright;
 	margin-top:8px;
 }
 span.post-read-more a {

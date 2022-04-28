@@ -36,7 +36,7 @@ function getCookie(cname) {
             varLogo2.setAttribute('src', img);
             theStyle2.removeAttribute('href');    
             theStyle.setAttribute('href', link);
-            footer.setAttribute('style', 'color:white');
+            footer.style.color = 'white';//setAttribute('style', 'color:white');
         }
         else if(getCookie("mode") == "Light")
         {
@@ -48,7 +48,7 @@ function getCookie(cname) {
             varLogo.setAttribute('src', img);
             theStyle.removeAttribute('href');    
             theStyle2.setAttribute('href', link2);
-            footer.setAttribute('style', 'color:black');
+            footer.style.color = 'black';
             
             document.cookie = "mode=Light";
         }else{

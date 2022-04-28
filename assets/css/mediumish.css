@@ -4,6 +4,8 @@ Copyright:WowThemes.net,https://www.wowthemes.net
 Version:1.0.1
 License: https://www.wowthemes.net/freebies-license/
 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Patrick+Hand&display=swap');
 
 body {
 	transition: color 1s ease-in-out;
@@ -80,9 +82,10 @@ section {
 	padding-left:0;
 }
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
-	font-size:1.3rem;
+	font-size:1.7rem;
 	font-weight:700;
 	line-height: 1.25;
+	font-family: "Patrick Hand","Abril Fatface";
 }
 .listfeaturedtag h2.card-title a,.listrecent h2.card-title a {
 	color:rgba(0,0,0,.8);
